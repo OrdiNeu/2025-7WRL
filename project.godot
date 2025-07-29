@@ -14,7 +14,7 @@ config/name="2025-07_7WRL"
 config/description="Test roguelike"
 run/main_scene="uid://bbavu0fc5f0xq"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Art/icon.svg"
 
 [input]
 

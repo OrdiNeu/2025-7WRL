@@ -1,9 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://bndcsurprctit"]
 
-[ext_resource type="Script" uid="uid://b3dw2t5nbiwgi" path="res://entity.gd" id="1_hsfu5"]
+[ext_resource type="Script" uid="uid://b3dw2t5nbiwgi" path="res://Scripts/entity.gd" id="1_hsfu5"]
 [ext_resource type="Texture2D" uid="uid://brc228v1b3l1i" path="res://Art/Monsters.png" id="2_l7g7l"]
 
 [node name="Entity" type="Node2D"]
+texture_filter = 1
+scale = Vector2(2, 2)
 script = ExtResource("1_hsfu5")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

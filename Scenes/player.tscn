@@ -1,10 +1,14 @@
 [gd_scene load_steps=3 format=3 uid="uid://c41dj6frfuuja"]
 
-[ext_resource type="Script" uid="uid://dsnldlnpbqks5" path="res://player.gd" id="1_cvnsp"]
+[ext_resource type="Script" uid="uid://dsnldlnpbqks5" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://brc228v1b3l1i" path="res://Art/Monsters.png" id="2_6t5aa"]
 
 [node name="Player" type="Node2D"]
+texture_filter = 1
+position = Vector2(320, 420)
+scale = Vector2(2, 2)
 script = ExtResource("1_cvnsp")
+game_pos = Vector2i(10, 10)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_6t5aa")
